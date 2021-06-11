@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  .container {
+      height: 100vh;
+      width: auto;
+      background-color: hsl(185, 75%, 39%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+  }
+  .profilo-card {
+      width: 350px;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      z-index: 100;
+  }
+  .contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+  }
+  .details img {
+    border-radius: 50%;
+    padding: 0.7rem;
+  }
+  .details {
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-top: -65px;
+    overflow: hidden;
+    line-height: 2rem;
+
+  }
+  .cardimg {
+      width: 100%;
+  }
+  .cardimg img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  h5 {
+
+    font-weight: 700;
+    font-size: 18px;
+  }
+  span, p {
+    color: hsl(0, 0%, 59%);
+  }
+  .contents div {
+    text-align: center;
+  }
+  .contents p {
+    font-size: 13px;
+  }
+  hr {
+    color: hsl(0, 0%, 99%);
+  }
+#topimg {
+position: absolute;
+top: -80%;
+left: -25%;
+}
+#bottomimg{
+  position: absolute;
+  bottom: -105%;
+  right: -20%;
+}
+  
+.attribution { 
+   margin-top: 3rem;
+   z-index: 100;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width:600px) {
+    #topimg {
+     top: -100%;
+     left: -160%;
+}
+#bottomimg{
+bottom: -100%;
+  right: -150%;
+}
+}
